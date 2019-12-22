@@ -1,4 +1,4 @@
-# ttt-string-count-backend
+# ttt-string-count-backend[![Build Status](https://travis-ci.org/dopecodez/ttt-string-count-backend.svg?branch=master)](https://travis-ci.org/dopecodez/ttt-string-count-backend)
 
 A string recurrence counter made with ExpressJS. Will get the N number of strings and their occurences. Also has unit tests on top of this with Mocha and Chai.
 
