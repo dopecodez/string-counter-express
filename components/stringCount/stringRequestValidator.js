@@ -24,7 +24,7 @@ class stringRequestValidator {
             }
             throw helper.createErrorResponse(data);
         }
-        if(!query.count){ //checking if count exits
+        if(!query.count || isNaN(query.count)){ //checking if count exits and if its a number
             let data = {
                 status: constants.RESPONSE_STATUS.BAD_REQUEST,
                 error: constants.MESSAGES.ERROR.STRING_NUMBER_MISSING,
