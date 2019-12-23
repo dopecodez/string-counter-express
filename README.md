@@ -1,4 +1,4 @@
-# ttt-string-count-backend[![Build Status](https://travis-ci.org/dopecodez/ttt-string-count-backend.svg?branch=master)](https://travis-ci.org/dopecodez/ttt-string-count-backend)
+# string-counter-express[![Build Status](https://travis-ci.org/dopecodez/ttt-string-count-backend.svg?branch=master)](https://travis-ci.org/dopecodez/ttt-string-count-backend)
 
 A string recurrence counter made with ExpressJS. Will get the N number of strings and their occurences. Also has unit tests on top of this with Mocha and Chai.
 
@@ -19,7 +19,7 @@ Windows 10.
 
 ### Installing
 
-Simple steps to get the application running. Open the terminal to the folder containing og-scraper-express and just type:
+Simple steps to get the application running. Open the terminal to the folder containing string-counter-express and just type:
 ```
 npm install
 ```
